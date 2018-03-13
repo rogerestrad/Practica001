@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         String palabra=cuadro.getText().toString();
         for (int x=palabra.length()-1;x>=0;x--)
         invertida = invertida + palabra.charAt(x);
-        cuadro.setText(invertida);
+        cuadro.setText(invertida.toUpperCase());
 
     }
     public void sumar (View v){
